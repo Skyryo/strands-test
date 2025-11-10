@@ -67,15 +67,24 @@ python agent.py
 
 このコマンドで、Strandsエージェントが起動し、サンプルクエリ「JAWS-UG主催のAI Builders Dayはどこで開催される？」に対する回答を生成します。
 
+### 特定のモデルを指定して実行
+
+```bash
+python agent_with_model.py
+```
+
+特定のClaudeモデル（例：Claude Haiku 4.5）を指定して実行する例です。
+
 ## ファイル構成
 
 ```
 .
-├── README.md           # このファイル
-├── requirements.txt    # Pythonパッケージの依存関係
-├── .env.example        # 環境変数の設定例
-├── .gitignore         # Git除外設定
-└── agent.py           # Strandsエージェントの実装
+├── README.md              # このファイル
+├── requirements.txt       # Pythonパッケージの依存関係
+├── .env.example           # 環境変数の設定例
+├── .gitignore             # Git除外設定
+├── agent.py               # Strandsエージェントの基本実装
+└── agent_with_model.py    # 特定モデルを指定したエージェント実装
 ```
 
 ## 主な機能
