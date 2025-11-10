@@ -1,0 +1,2 @@
+# strands-test
+AWSのエージェント開発フレームワークStrandsのハンズオンを実施します
